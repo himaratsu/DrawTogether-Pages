@@ -2,221 +2,65 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        /* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
-
-        html,
-        body,
-        div,
-        span,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        abbr,
-        address,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        img,
-        ins,
-        kbd,
-        q,
-        samp,
-        small,
-        strong,
-        sub,
-        sup,
-        var,
-        b,
-        i,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        table,
-        caption,
-        tbody,
-        tfoot,
-        thead,
-        tr,
-        th,
-        td,
-        article,
-        aside,
-        canvas,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section,
-        summary,
-        time,
-        mark,
-        audio,
-        video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-            background: transparent;
-        }
-
-        body {
-            line-height: 1;
-        }
-
-        article,
-        aside,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
-            display: block;
-        }
-
-        nav ul {
-            list-style: none;
-        }
-
-        blockquote,
-        q {
-            quotes: none;
-        }
-
-        blockquote:before,
-        blockquote:after,
-        q:before,
-        q:after {
-            content: '';
-            content: none;
-        }
-
-        a {
-            margin: 0;
-            padding: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-            background: transparent;
-        }
-
-        /* change colours to suit your needs */
-        ins {
-            background-color: #ff9;
-            color: #000;
-            text-decoration: none;
-        }
-
-        /* change colours to suit your needs */
-        mark {
-            background-color: #ff9;
-            color: #000;
-            font-style: italic;
-            font-weight: bold;
-        }
-
-        del {
-            text-decoration: line-through;
-        }
-
-        abbr[title],
-        dfn[title] {
-            border-bottom: 1px dotted;
-            cursor: help;
-        }
-
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        /* change border colour to suit your needs */
-        hr {
-            display: block;
-            height: 1px;
-            border: 0;
-            border-top: 1px solid #cccccc;
-            margin: 1em 0;
-            padding: 0;
-        }
-
-        input,
-        select {
-            vertical-align: middle;
-        }
-
-        /************* ここまで Reset CSS ***************/
-
-        body {
-            color: #333333;
-            background: #F6F6F6;
-        }
-
-        div.wrapper {
-            /* width: 800px; */
-            margin: 0 auto 0;
-        }
-
-        div.contents {
-            margin: 60px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 1.6em;
-            margin-bottom: 32px;
-            letter-spacing: 0.1em;
-        }
-
-        h2 {
-            font-size: 1.0em;
-            color: #666666;
-        }
-    </style>
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="contents">
-            <h1>DrawTogether</h1>
-            <h2>ふたりでひとつの絵を描こう！</h2>
+    <section class="hero is-medium is-info is-bold">
+        <div class="awesome hero-body">
+            <div class="container">
+                <h1 class="title">
+                    お絵かきコラボ!
+                </h1>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="main">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="./img/icon.png">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">お絵かきコラボ!</p>
+                        <p class="subtitle is-6">ふたりでひとつの絵を描こう</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    出されたお題に対して、2人でひとつの絵を描くお絵かきアプリです。
+                    制限時間の30秒をつかって絵を描いたあとは、相手の絵とぴったりハマるかドキドキしよう！
+                    <br><br>
+                    ひとりで描くのも楽しいけど、みんなで描くともっと楽しい、そんなアプリです！
+                </div>
+
+                <div class="link">
+                    <a href="https://apps.apple.com/app/id1445350507" target="_blank">
+                        <img class="badge" src="./img/appstore.png">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=kk.draw.together" target="_blank">
+                        <img class="badge" src="./img/googleplay.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                ©2019 お絵かきコラボ開発チーム / <a href="https://twitter.com/bere_nyan" target="_blank">Twitter
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
