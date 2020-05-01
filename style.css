@@ -18,6 +18,16 @@ img.badge {
     height: 48px;
 }
 
+.contact {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.strong {
+    font-weight: bold;
+}
+
 footer.footer {
     margin-top: 32px;
     background-color: #FFFFFF;
