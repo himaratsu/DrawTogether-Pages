@@ -1,3 +1,7 @@
+body {
+    background-color: #F6F6F6;
+}
+
 .awesome {
     max-width: 800px;
     margin: -48px auto 12px;
@@ -31,4 +35,44 @@ img.badge {
 footer.footer {
     margin-top: 32px;
     background-color: #FFFFFF;
+}
+
+.history {
+    margin-top: 48px;
+}
+
+.history .card-content {
+    padding-top: 32px;
+}
+
+.history .card-content .media {
+    margin-bottom: 48px;
+}
+
+div.article {
+    margin-top: 32px;
+}
+
+div.article .name {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+div.article .link {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 24px;
+    font-size: 1.0em;
+}
+
+.caption {
+    margin-top: 12px;
+}
+
+.caption a {
+    /* font-weight: bold; */
+    text-decoration: underline;
 }
