@@ -55,7 +55,8 @@ div.article {
 
 div.article .name {
     font-size: 1.0em;
-    font-weight: bold;
+    font-weight: bolder;
+    color: #333;
 }
 
 div.article .link {
